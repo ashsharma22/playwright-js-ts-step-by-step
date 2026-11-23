@@ -1,3 +1,5 @@
+const { test, expect } = require('@playwright/test');
+
 // =====================================================================================
 // File   : 05-visibility-navigation.spec.js
 // Topic  : Visibility assertions (toBeVisible / toBeHidden / toHaveCount)
