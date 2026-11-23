@@ -30,7 +30,6 @@ module.exports = defineConfig({
 
     use: {
         browserName: 'chromium',
-        headless: false,         // show the browser window
         screenshot: 'on',        // screenshot at the end of each test
         video: 'on',             // video of the whole run
         trace: 'on',             // step-by-step replay in Trace Viewer
